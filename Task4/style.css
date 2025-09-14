@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header & Navigation */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section Layout */
+section {
+  padding: 2rem;
+}
+.project {
+  margin-top: 2rem;
+}
+
+/* To-Do List Styling */
+#todo-app {
+  margin-top: 1rem;
+}
+#taskInput {
+  padding: 8px;
+  width: 200px;
+}
+#taskList li {
+  list-style: none;
+  margin-top: 5px;
+}
+#taskList li button {
+  margin-left: 10px;
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 2px 6px;
+  cursor: pointer;
+}
+
+/* Product Listing Styling */
+#productContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.product-card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+select {
+  padding: 6px;
+  margin-bottom: 1rem;
+}
+
+/* Contact Form */
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+form button {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #444;
+}
